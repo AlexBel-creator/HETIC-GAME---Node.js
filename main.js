@@ -1,12 +1,14 @@
-const { Client, Collection, GatewayIntentBits } = require("discord.js");
+const { Client, Collection, GatewayIntentBits, Events } = require("discord.js");
 const {token} =  require("./config.json");
 // const bot = new Discord.Client({intents:3276799})
 
-// Create new client to run the bot
-const client = new Client ({intents: [GatewayIntentBits.Guilds] });
+// Créez une nouvelle instance du client pour faire fonctionner le bot
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-bot.login(config.token)
 
-client.once(Events.ClientsReady, readyClient => {
-    console.log (`Ready! ${readyClient.user.tag}`);
-}) 
+// Utilisez la variable 'client' pour se co'
+client.login(token);
+
+client.once(Events.ClientReady, () => {
+    console.log(`Prêt! Connecté en tant que ${client.user.tag}`);
+});

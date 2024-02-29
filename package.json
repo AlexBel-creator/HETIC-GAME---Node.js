@@ -9,6 +9,7 @@
   "author": "Game HETIC",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/util": "^1.0.2",
     "discord.js": "^14.14.1"
   }
 }
