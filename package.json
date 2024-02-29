@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/util": "^1.0.2",
-    "discord.js": "^14.14.1"
+    "discord.js": "^14.14.1",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7"
   }
 }
