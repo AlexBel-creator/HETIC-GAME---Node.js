@@ -41,8 +41,4 @@ Pour configurer le bot localement, suivez ces étapes :
 
 ## Démarrage du Bot 
 
-Exécutez :
-
-    ```
-    node main.js
-    ```
+Exécutez :`node main.js`
