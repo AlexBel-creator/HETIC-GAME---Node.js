@@ -16,18 +16,22 @@ Pour configurer le bot localement, suivez ces étapes :
 
     ```sh
     git clone https://github.com/AlexBel-creator/HETIC-GAME---Node.js.git
+    ```
+    ```sh
     cd HETIC-GAME---Node.js
     ```
 
 2. Installez les dépendances du projet en exécutant :
 
-    `npm install`
+    ```sh
+    npm install
+    ```
 
 3. Créez un fichier config.json à la racine du projet avec la structure suivante :
     
     ```json
     {
-        "token": "VOTRE_TOKEN_DISCORD_BOT_ICI",
+        "token": "LE_TOKEN_DISCORD_BOT_DEMANDÉ",
     }
     ```
 
